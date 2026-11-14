@@ -1,0 +1,35 @@
+const tours = {
+  'round-tours': [
+    ['9-Day Unique Sri Lanka Round Tour', '9 days · Round tour', 'unique', 'Bentota’s coast, Gal Oya’s wildlife, Maskeliya’s tea country and Sigiriya’s rock fortress in one island circuit.', 'amak-travels-9-day-unique-sri-lanka-round-tour'],
+    ['7-Day Romantic Honeymoon Tour', '7 days · Round tour', 'honeymoon', 'Take in Sigiriya and Kandy, ride the train to Ella, then unwind in Mirissa with a candlelit beach dinner.', '7-days-romantic-honeymoon-tour-in-sri-lanka'],
+    ['7-Day Upper Round Tour of Sri Lanka', '7 days · Round tour', 'upper', 'Explore Wilpattu National Park, the ancient city of Anuradhapura, Trincomalee’s coast and the Knuckles Range.', '7-days-upper-round-tour-of-sri-lanka'],
+    ['Budget Round Tour Sri Lanka', '7 days · 6 nights', 'sigiriya', 'A circuit through Sigiriya, Kandy, Ella, Gal Oya, Galle and Colombo with airport pickup and drop-off.', 'amak-travels-budget-round-tour-sri-lanka-2'],
+    ['Two-Day Hiking & Camping in Knuckles', '2 days · Adventure', 'trek', 'Spend two days in the Knuckles Range, combining guided hiking with an overnight camping experience.', 'two-day-hiking-camping-kandy'],
+  ],
+  'day-tours': [
+    ['Knuckles 1-Day Waterfall Tour', '1 day · Nature', 'falls', 'Visit five waterfalls in the Knuckles Range on a day trip from Kandy, with time for a picnic and short walks.', 'knuckles-1-day-waterfall-tour'],
+    ['Kandy Heritage & Temple Day Tour', '1 day · Culture', 'heritage', 'Visit the Big Buddha, Gadaladeniya, Lankathilaka, Embekke and the Temple of the Tooth.', 'kandy-heritage-temple-day-tour'],
+    ['Kandy Tuk Tuk Tour', '1 day · City tour', 'tuk', 'Explore Kandy by private tuk-tuk, with stops for temples, city views and local food.', 'budget-tuk-tuk-kandy-tour'],
+    ['Puna Falls, Ramboda Falls & Ambuluwawa', '1 day · Nature', 'tower', 'See two hill-country waterfalls, then head to Ambuluwawa Tower for sweeping views.', 'ambuluwawa-ramboda-falls-day-tour-from-kandy'],
+    ['One-Day Hiking in the Kandy Highlands', '1 day · Hiking', 'trek', 'Choose a guided hike around Hanthana, Pettigala, the Knuckles Five Peaks or Kotaganga’s waterfalls.', 'one-day-hiking-camping-kandy-knuckles-adventures'],
+    ['Hanthana Lizard’s Back Hike', '1 day · Hiking', 'trek', 'Follow the Hanthana ridgeline on a guided hike from Kandy.', 'one-day-hiking-camping-kandy-knuckles-adventures-hanthane-lizard-back'],
+    ['Pettigala Hike', '1 day · Hiking', 'trek', 'Explore the Pettigala trail and its viewpoints above the Kandy region.', 'one-day-hiking-camping-kandy-knuckles-adventures-pettigala'],
+    ['Knuckles Five Peaks Hike', '1 day · Hiking', 'trek', 'Explore the forest, ridges and summits of the Knuckles Range.', 'one-day-hiking-camping-kandy-knuckles-adventures-five-peaks'],
+    ['Kotaganga Waterfalls Hike', '1 day · Hiking', 'falls', 'Follow a guided trail through the Knuckles foothills to the Kotaganga cascades.', 'one-day-hiking-camping-kandy-knuckles-adventures-kotaganga'],
+    ['Pekoe Trail Stage 1', '1 day · Hiking', 'trail', 'Walk from Hanthana to Galaha through tea estates and the hills outside Kandy.', 'pekoe-trail-experience-stage-1-hanthana-to-galaha'],
+    ['Pekoe Trail Stage 2', '1 day · Hiking', 'trail', 'Follow the trail from Galaha to Loolkandura through Sri Lanka’s historic tea country.', 'pekoe-trail-stage-2-galaha-to-loolkandura-hike'],
+    ['Temple of the Tooth & Meeyan Ella', '1 day · Culture and nature', 'heritage', 'Combine Kandy’s Temple of the Tooth with Meeyan Ella waterfall and stops around Kadugannawa. Confirm the current route when enquiring.', 'temple-of-the-tooth-pinnawala-elephant-day-tour'],
+    ['Kandy Night Tour', 'Evening · Culture', 'night', 'See Kandy after dark, with a Kandyan dance performance and an evening visit to the Temple of the Tooth.', 'kandy-night-tour-experience'],
+  ],
+  ramayana: [
+    ['The Sacred 7 Ramayana Tour', '8 days · 7 nights', 'heritage', 'A private pilgrimage from Chilaw and the Cultural Triangle through the hill country to Galle.', 'sacred-7-ramayana-tour-sri-lanka'],
+    ['Classic Ramayana Odyssey', '11 days · 10 nights', 'heritage', 'A private pilgrimage through the Cultural Triangle, Trincomalee, Kandy, the hill country and the sacred south.', 'classic-ramayana-odyssey-sri-lanka'],
+    ['Ultimate Ramayana Expedition', '15 days · 14 nights', 'sigiriya', 'An extended pilgrimage covering Mannar and Jaffna, east-coast temples, the highlands and southern Sri Lanka.', 'ultimate-ramayana-expedition-sri-lanka'],
+  ],
+  perahera: [
+    ['Kandy Esala Perahera Packages', 'Seasonal · Festival', 'festival', 'Ask about standard, medium and premium seating for the Kandy Esala Perahera. Contact AMAK Travels for current dates and availability.', 'perahera-tour-pakages'],
+    ['Premium Final Randoli Package', 'Seasonal · Festival', 'festival', 'Reserved seating for the final Randoli procession in Kandy.', 'premium-package-final-randoli-perahera'],
+    ['Medium Randoli Package', 'Seasonal · Festival', 'festival', 'A reserved viewing option for a Randoli procession.', 'medium-package-randoli-perahera'],
+    ['Standard Perahera Package', 'Seasonal · Festival', 'festival', 'A reserved viewing option for the Kandy Esala Perahera.', 'standard-package-final-randoli-perahera'],
+  ],
+};
