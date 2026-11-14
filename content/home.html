@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Discover Sri Lanka with AMAK Travels. Explore round tours, day trips from Kandy, and tailor-made holidays.">
+<meta name="theme-color" content="#01213a">
+<title>AMAK Travels | Sri Lanka Tours & Tailor-made Holidays</title>
+<link rel="icon" href="assets/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="AMAK Travels home"><img src="assets/logo.webp" alt=""><span>AMAK<small>TRAVELS</small></span></a>
+    <button class="menu" aria-expanded="false" aria-controls="navigation" type="button">Menu <span aria-hidden="true">☰</span></button>
+    <nav id="navigation" aria-label="Main navigation">
+      <a href="#tours">Tour packages</a><a href="#about">About us</a><a href="#gallery">Gallery</a><a href="https://amaktravels.com/discover/">Travel blog</a>
+    </nav>
+    <a class="button header-cta" href="#plan">Plan my trip <span aria-hidden="true">↗</span></a>
+  </div>
+</header>
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <img class="hero-photo" src="assets/hero.webp" alt="" fetchpriority="high">
+    <div class="wrap hero-inner">
+      <p class="eyebrow"><span></span> SRI LANKA · LOCAL TOUR OPERATOR</p>
+      <h1 id="hero-title">Journey through<br><em>paradise.</em></h1>
+      <p class="hero-copy">From misty mountains to golden shores, discover Sri Lanka on a journey shaped around you.</p>
+      <div class="actions"><a class="button gold" href="#tours">Explore our tours <span aria-hidden="true">↗</span></a><a class="button outline" href="#plan">Tailor my trip <span aria-hidden="true">→</span></a></div>
+      <p class="location"><span aria-hidden="true">⌖</span> <span>SIGIRIYA, SRI LANKA</span></p>
+    </div>
+  </section>
+  <div class="tour-nav"><div class="wrap tour-nav-inner">
+    <a href="#round-tours" data-category="round-tours"><span class="nav-icon" aria-hidden="true">↻</span><span><b>Round tours</b><small>Multi-day journeys across the island</small></span><span class="nav-arrow" aria-hidden="true">↗</span></a>
+    <a href="#day-tours" data-category="day-tours"><span class="nav-icon" aria-hidden="true">☼</span><span><b>Day tours</b><small>Kandy and the central highlands</small></span><span class="nav-arrow" aria-hidden="true">↗</span></a>
+    <a href="#plan"><span class="nav-icon" aria-hidden="true">✧</span><span><b>Tailor-made trips</b><small>Itineraries built around your plans</small></span><span class="nav-arrow" aria-hidden="true">↗</span></a>
+  </div></div>
+  <section class="section wrap" id="tours">
+    <div class="section-head">
+      <div><p class="eyebrow accent"><span></span> EXPLORE SRI LANKA</p><h2>Find your next <em>adventure.</em></h2><p>Choose an island-wide itinerary, a day out from Kandy, or a cultural journey.</p></div>
+    </div>
+    <div class="filters" role="group" aria-label="Tour categories">
+      <button type="button" data-category="round-tours" aria-pressed="true">Round tours</button>
+      <button type="button" data-category="day-tours" aria-pressed="false">Day tours</button>
+      <button type="button" data-category="ramayana" aria-pressed="false">Ramayana tours</button>
+      <button type="button" data-category="perahera" aria-pressed="false">Perahera</button>
+    </div>
+    <div id="tour-grid" class="cards"></div>
+    <noscript><p>Browse the <a href="https://amaktravels.com/round-tours/">round tours</a> and <a href="https://amaktravels.com/day-tour/">day tours</a> on AMAK Travels.</p></noscript>
+  </section>
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <img src="assets/about.webp" loading="lazy" alt="A landscape in Sri Lanka’s hill country">
+      <div class="about-text"><p class="eyebrow accent"><span></span> ABOUT AMAK TRAVELS</p>
+      <h2>See Sri Lanka <em>with locals.</em></h2>
+      <p>AMAK Travels is a Sri Lankan tour operator. We plan round tours across the island, from ancient cities and hill-country tea estates to wildlife parks and southern beaches.</p>
+      <p>Tell us what you’d like to experience, how much time you have and the pace you prefer. We’ll help you put together a route that fits.</p>
+      <a class="text-link" href="#plan">Talk to our team <span aria-hidden="true">↗</span></a></div>
+    </div>
+  </section>
+  <section class="section wrap" id="gallery">
+    <div class="section-head"><div><p class="eyebrow accent"><span></span> GUEST GALLERY</p><h2>Out on <em>the island.</em></h2></div><a class="text-link" href="https://amaktravels.com/gallery/">View full gallery <span aria-hidden="true">↗</span></a></div>
+    <div class="gallery">
+      <button type="button" data-photo="assets/guest-1.webp" aria-label="Enlarge guest photo 1"><img src="assets/guest-1.webp" loading="lazy" alt="Guests on a Sri Lanka tour"></button>
+      <button type="button" data-photo="assets/guest-2.webp" aria-label="Enlarge guest photo 2"><img src="assets/guest-2.webp" loading="lazy" alt="Guests exploring Sri Lanka"></button>
+      <button type="button" data-photo="assets/guest-3.webp" aria-label="Enlarge guest photo 3"><img src="assets/guest-3.webp" loading="lazy" alt="A moment from an AMAK Travels trip"></button>
+    </div>
+  </section>
+  <section class="plan" id="plan">
+    <div class="wrap plan-grid">
+      <div class="plan-intro"><p class="eyebrow"><span></span> TAILOR-MADE TOURS</p><h2>Let’s plan <em>your Sri Lanka.</em></h2>
+        <p>Tell us your dates, who’s coming and what you’d love to see. Our team will help you plan the route.</p>
+        <address>
+          <a href="https://wa.me/94710857333">WhatsApp us <span aria-hidden="true">↗</span></a>
+          <a href="tel:+94778711641">+94 77 871 1641</a>
+          <a href="tel:+94710857333">+94 71 085 7333</a>
+          <a href="mailto:info@amaktravels.com">info@amaktravels.com</a>
+        </address>
+      </div>
+      <form id="enquiry" class="enquiry" action="mailto:info@amaktravels.com" method="get">
+        <h3>Tell us about your trip</h3>
+        <div class="fields">
+          <label>First name <input name="First name" autocomplete="given-name" required></label>
+          <label>Last name <input name="Last name" autocomplete="family-name" required></label>
+          <label>Email <input name="Email" type="email" autocomplete="email" required></label>
+          <label>WhatsApp number <input name="WhatsApp number" type="tel" autocomplete="tel" placeholder="+ country code"></label>
+          <label>Country <input name="Country" autocomplete="country-name"></label>
+          <label>Tour package <select name="Tour package" id="package"><option>Tailor-made tour</option></select></label>
+          <label>Arrival date <input name="Arrival date" type="date" id="arrival"></label>
+          <label>Departure date <input name="Departure date" type="date" id="departure"></label>
+          <label>Adults <input name="Adults" type="number" min="1" value="2" required></label>
+          <label>Children <input name="Children" type="number" min="0" value="0"></label>
+          <label class="full">Your plans <textarea name="Your plans" rows="3" placeholder="Places, interests or anything we should know"></textarea></label>
+        </div>
+        <div class="form-actions"><button class="button" type="submit">Continue to WhatsApp <span aria-hidden="true">↗</span></button><button type="submit" value="email" class="email-action">Use email</button></div>
+        <p class="form-note">Review and send your enquiry in WhatsApp or your email app.</p>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="wrap footer-inner">
+  <a class="brand" href="#top"><img src="assets/logo.webp" alt=""><span>AMAK<small>TRAVELS</small></span></a>
+  <p>© <span id="year">2026</span> AMAK Travels</p>
+  <nav aria-label="Footer"><a href="https://www.instagram.com/amaktravels/">Instagram</a><a href="#photo-credit">Photo credit</a><a href="https://amaktravels.com/privacy-policy-amak-travel/">Privacy</a><a href="https://amaktravels.com/terms-conditions-amak-travels/">Terms</a><a href="https://amaktravels.com/refund-cancellation-policy-amak-travels/">Cancellation policy</a></nav>
+</div><p class="wrap photo-credit" id="photo-credit">Sigiriya aerial photograph by dronepicr, cropped and resized. <a href="https://commons.wikimedia.org/wiki/File:Sigiriya_rock_aerial_(29448588523).jpg">Source</a> · <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a></p></footer>
+<dialog id="tour-dialog" aria-labelledby="tour-title"><button class="close" aria-label="Close tour details" type="button">×</button><img id="tour-photo" alt=""><div class="dialog-copy"><p class="eyebrow accent" id="tour-kind"></p><h2 id="tour-title"></h2><p id="tour-summary"></p><div class="actions"><a id="tour-enquire" class="button" href="#plan">Enquire about this tour <span aria-hidden="true">↗</span></a><a id="tour-original" class="text-link">Full itinerary <span aria-hidden="true">↗</span></a></div></div></dialog>
+<dialog id="gallery-dialog" aria-label="Guest photo"><button class="close" aria-label="Close photo" type="button">×</button><img id="gallery-photo" alt=""></dialog>
+</body>
+</html>

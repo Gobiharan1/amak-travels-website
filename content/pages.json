@@ -1,0 +1,39 @@
+{
+  "about": [
+    ["A tour operator based in Sri Lanka’s Central Province", "AMAK Travels plans private and tailor-made journeys across Sri Lanka. The team’s roots in the Central Province shape its tours around Kandy, the tea estates, waterfalls and historic temples."],
+    ["Travel at your own pace", "Choose a cultural day trip, a guided hike or an island-wide round tour. The team helps with itinerary planning and local guidance, taking your interests, schedule and group size into account."],
+    ["A local approach", "AMAK aims to make travel comfortable and personal while respecting the people, places and landscapes guests come to experience."]
+  ],
+  "discover": [
+    ["Temple of the Sacred Tooth Relic", "heritage", "Visit Sri Dalada Maligawa, the Buddhist temple that houses the Sacred Tooth Relic. The temple’s architecture and daily rituals make it a central stop in Kandy.", "kandy-heritage-temple-day-tour"],
+    ["Royal Botanical Gardens, Peradeniya", "trail", "Explore palm avenues, orchids, bamboo and lawns just outside Kandy. The gardens are a stop on AMAK’s tuk-tuk itinerary.", "budget-tuk-tuk-kandy-tour"],
+    ["Kandy Lake", "tuk", "Take a lakeside walk in the heart of the city. The lake dates to the reign of Sri Wickrama Rajasinghe and sits beside the Temple of the Tooth.", "kandy-night-tour-experience"]
+  ],
+  "policies": {
+    "privacy-policy-amak-travel": ["Privacy policy", [
+      ["Information AMAK collects", "AMAK may collect your name, email, phone or WhatsApp number, travel and identification details needed for arrangements, and payment information."],
+      ["How AMAK uses it", "Information helps AMAK process bookings, communicate with customers, deliver and improve travel services, and meet administrative or legal obligations."],
+      ["Payments and data protection", "AMAK’s published policy identifies WebxPay as its online payment provider and states that AMAK does not store or access card details. AMAK takes reasonable steps to protect customer information."],
+      ["Cookies and travel partners", "The website may use cookies for functionality and user experience. AMAK may share information with hotels, transport providers and other tour partners as needed to deliver a service."]
+    ]],
+    "terms-conditions-amak-travels": ["Terms and conditions", [
+      ["Bookings and payment", "Customers accept AMAK’s terms when booking a tour. Full or advance payment is required to confirm a booking. The published terms identify WebxPay as AMAK’s payment provider."],
+      ["Traveller responsibilities", "Provide accurate booking information, hold valid travel documents, and follow local laws and guide instructions."],
+      ["Itinerary changes", "Weather, road conditions, government requirements or safety concerns may require itinerary changes."],
+      ["Liability and events outside AMAK’s control", "The original terms describe AMAK’s limits of liability for injury, loss, flight delays, natural disasters, strikes, political unrest and other events outside its control."]
+    ]],
+    "refund-cancellation-policy-amak-travels": ["Refund and cancellation policy", [
+      ["Booking confirmation", "AMAK confirms bookings once it receives confirmation of payment."],
+      ["Customer cancellations", "The published policy lists a full refund at seven days or more before the tour, 50% at three to six days, and no refund at less than 48 hours. Check the terms in your confirmed quote for your package."],
+      ["No-shows and operator cancellations", "The published policy gives no refund for a no-show. When AMAK cancels for weather, safety or unavoidable circumstances, it offers a full refund or rescheduling."],
+      ["Refund processing", "The policy gives a processing window of seven to fourteen business days for approved refunds through the original payment method."]
+    ]]
+  },
+  "fallback": {
+    "classic-ramayana-odyssey-sri-lanka": ["Arrival and Colombo temples", "Chilaw’s Manavari and Munneswaram temples", "Anuradhapura and Ritigala", "Sigiriya and Koneswaram", "Trincomalee and the east coast", "Dunuwila and Kandy", "Kandy’s temples and gardens", "Ramboda and Nuwara Eliya", "Ella and Divurumpola", "Kataragama and the south coast", "Galle, Colombo and departure"],
+    "ultimate-ramayana-expedition-sri-lanka": ["Arrival and Colombo temples", "Chilaw and Puttalam coast", "Mannar and Ram Setu viewpoints", "Jaffna heritage", "Jaffna to Anuradhapura", "Sigiriya and Habarana", "Trincomalee and Koneswaram", "Dunuwila, Lakegala and Knuckles", "Kandy cultural day", "Ramboda and Nuwara Eliya", "Hill-country traditions", "Ella and the Ravana sites", "Kataragama, Ussangoda and Galle", "Galle to Colombo", "Departure or extension"],
+    "one-day-hiking-camping-kandy-knuckles-adventures-hanthane-lizard-back": ["Transfer from Kandy to the Hanthana trail", "Guided ridgeline hike and viewpoints", "Return to Kandy"],
+    "one-day-hiking-camping-kandy-knuckles-adventures-pettigala": ["Transfer from Kandy to Digana", "Guided Pettigala hike and summit views", "Return to Kandy"],
+    "one-day-hiking-camping-kandy-knuckles-adventures-kotaganga": ["Transfer from Kandy toward Rangala or Thangappuwa", "Guided Kotaganga waterfall hike", "Return to Kandy"]
+  }
+}

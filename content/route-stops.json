@@ -1,0 +1,689 @@
+{
+  "places": {
+    "airport": [
+      "Bandaranaike International Airport",
+      7.1808,
+      79.8841,
+      "colombo"
+    ],
+    "colombo": [
+      "Colombo",
+      6.9271,
+      79.8612,
+      "colombo"
+    ],
+    "negombo": [
+      "Negombo",
+      7.2083,
+      79.8358,
+      "coast"
+    ],
+    "bentota": [
+      "Bentota",
+      6.4211,
+      80.0043,
+      "coast"
+    ],
+    "ratnapura": [
+      "Ratnapura",
+      6.7056,
+      80.3847,
+      "about"
+    ],
+    "matara": [
+      "Matara",
+      5.9485,
+      80.5353,
+      "coast"
+    ],
+    "mirissa": [
+      "Mirissa",
+      5.9483,
+      80.4716,
+      "mirissa"
+    ],
+    "galoya": [
+      "Gal Oya",
+      7.2269,
+      81.4539,
+      "galoya"
+    ],
+    "maskeliya": [
+      "Maskeliya",
+      6.831,
+      80.5671,
+      "gartmore"
+    ],
+    "kandy": [
+      "Kandy",
+      7.2906,
+      80.6337,
+      "kandy-day"
+    ],
+    "sigiriya": [
+      "Sigiriya",
+      7.957,
+      80.7603,
+      "sigiriya"
+    ],
+    "pinnawala": [
+      "Pinnawala",
+      7.3015,
+      80.3899,
+      "pinnawala"
+    ],
+    "ella": [
+      "Ella",
+      6.8667,
+      81.0466,
+      "ella-day"
+    ],
+    "galle": [
+      "Galle Fort",
+      6.025,
+      80.217,
+      "galle"
+    ],
+    "wilpattu": [
+      "Wilpattu National Park",
+      8.487,
+      80.1033,
+      "upper"
+    ],
+    "anuradhapura": [
+      "Anuradhapura",
+      8.3448,
+      80.3964,
+      "heritage"
+    ],
+    "trinco": [
+      "Trincomalee",
+      8.5874,
+      81.2152,
+      "coast"
+    ],
+    "chilaw": [
+      "Chilaw",
+      7.5758,
+      79.7953,
+      "coast"
+    ],
+    "ritigala": [
+      "Ritigala",
+      8.1222,
+      80.6551,
+      "trek"
+    ],
+    "mannar": [
+      "Mannar",
+      8.9801,
+      79.9044,
+      "coast"
+    ],
+    "jaffna": [
+      "Jaffna",
+      9.6615,
+      80.0255,
+      "heritage"
+    ],
+    "nuwara": [
+      "Nuwara Eliya",
+      6.9497,
+      80.7891,
+      "trail"
+    ],
+    "ramboda": [
+      "Ramboda Falls",
+      7.063,
+      80.7029,
+      "tower"
+    ],
+    "kataragama": [
+      "Kataragama",
+      6.4136,
+      81.334,
+      "heritage"
+    ],
+    "knuckles": [
+      "Knuckles Range",
+      7.448,
+      80.8052,
+      "trek"
+    ],
+    "thangappuwa": [
+      "Thangappuwa",
+      7.371,
+      80.85,
+      "trek"
+    ],
+    "hanthana": [
+      "Hanthana",
+      7.2535,
+      80.6288,
+      "trail"
+    ],
+    "galaha": [
+      "Galaha",
+      7.1896,
+      80.6705,
+      "trail"
+    ],
+    "delthota": [
+      "Delthota",
+      7.1452,
+      80.7028,
+      "trail"
+    ],
+    "loolkandura": [
+      "Loolkandura tea estate",
+      7.1226,
+      80.7294,
+      "trail"
+    ],
+    "pettigala": [
+      "Pettigala, Digana",
+      7.3025,
+      80.7641,
+      "trek"
+    ],
+    "rangala": [
+      "Rangala",
+      7.3624,
+      80.8158,
+      "falls"
+    ],
+    "huluganga": [
+      "Huluganga",
+      7.4205,
+      80.7371,
+      "falls"
+    ],
+    "alakola": [
+      "Alakola Ella area",
+      7.458,
+      80.751,
+      "falls"
+    ],
+    "lebanon": [
+      "Lebanon Estate area",
+      7.473,
+      80.769,
+      "falls"
+    ],
+    "bahirawa": [
+      "Bahirawakanda",
+      7.2955,
+      80.6296,
+      "kandy-day"
+    ],
+    "asgirya": [
+      "Asgiriya Temple",
+      7.2992,
+      80.6337,
+      "heritage"
+    ],
+    "gadaladeniya": [
+      "Gadaladeniya",
+      7.2579,
+      80.5588,
+      "heritage"
+    ],
+    "lankatilaka": [
+      "Lankathilaka",
+      7.2333,
+      80.5656,
+      "heritage"
+    ],
+    "embekke": [
+      "Embekke",
+      7.2179,
+      80.5675,
+      "heritage"
+    ],
+    "tooth": [
+      "Temple of the Tooth",
+      7.2937,
+      80.6413,
+      "heritage"
+    ],
+    "lake": [
+      "Kandy Lake",
+      7.2902,
+      80.641,
+      "night"
+    ],
+    "peradeniya": [
+      "Peradeniya Botanical Gardens",
+      7.2723,
+      80.5955,
+      "kandy-day"
+    ],
+    "puna": [
+      "Puna Falls area",
+      7.077,
+      80.684,
+      "puna"
+    ],
+    "ambuluwawa": [
+      "Ambuluwawa",
+      7.1646,
+      80.5527,
+      "tower"
+    ],
+    "meeyan": [
+      "Meeyan Ella",
+      7.27,
+      80.468,
+      "waterfall"
+    ],
+    "kadugannawa": [
+      "Kadugannawa",
+      7.2562,
+      80.5258,
+      "trail"
+    ],
+    "dunuwila": [
+      "Dunuwila Lake area",
+      7.533,
+      80.697,
+      "about"
+    ],
+    "habarana": [
+      "Habarana",
+      8.0357,
+      80.7536,
+      "sigiriya"
+    ],
+    "yahangala": [
+      "Yahangala area",
+      7.373,
+      80.919,
+      "trek"
+    ],
+    "gombaniya": [
+      "Gombaniya area",
+      7.416,
+      80.807,
+      "trek"
+    ],
+    "garadiella": [
+      "Kalugala Garadi Ella area",
+      7.366,
+      80.92,
+      "falls"
+    ],
+    "thunhisgala": [
+      "Thunhisgala area",
+      7.464,
+      80.777,
+      "trek"
+    ]
+  },
+  "routes": [
+    [
+      "amak-travels-9-day-unique-sri-lanka-round-tour",
+      [
+        "bentota",
+        "ratnapura",
+        "matara",
+        "galoya",
+        "galoya",
+        "maskeliya",
+        "kandy",
+        "sigiriya",
+        "colombo"
+      ],
+      [
+        "airport"
+      ],
+      [
+        "airport"
+      ]
+    ],
+    [
+      "7-days-romantic-honeymoon-tour-in-sri-lanka",
+      [
+        "pinnawala",
+        "sigiriya",
+        "kandy",
+        "ella",
+        "mirissa",
+        "mirissa",
+        "colombo"
+      ],
+      [
+        "airport"
+      ],
+      [
+        "airport"
+      ]
+    ],
+    [
+      "7-days-upper-round-tour-of-sri-lanka",
+      [
+        "negombo",
+        "wilpattu",
+        "anuradhapura",
+        "trinco",
+        "sigiriya",
+        "knuckles",
+        "colombo"
+      ],
+      [
+        "airport"
+      ],
+      [
+        "airport"
+      ]
+    ],
+    [
+      "amak-travels-budget-round-tour-sri-lanka-2",
+      [
+        "sigiriya",
+        "kandy",
+        "ella",
+        "galoya",
+        "galle",
+        "mirissa",
+        "colombo"
+      ],
+      [
+        "airport"
+      ],
+      [
+        "airport"
+      ]
+    ],
+    [
+      "two-day-hiking-camping-kandy",
+      [
+        [
+          "yahangala",
+          "gombaniya",
+          "garadiella",
+          "thunhisgala"
+        ],
+        "kandy"
+      ],
+      [
+        "kandy"
+      ]
+    ],
+    [
+      "knuckles-1-day-waterfall-tour",
+      [
+        "huluganga",
+        "alakola",
+        "lebanon",
+        "kandy"
+      ],
+      [
+        "kandy"
+      ]
+    ],
+    [
+      "kandy-heritage-temple-day-tour",
+      [
+        "bahirawa",
+        [
+          "gadaladeniya",
+          "lankatilaka",
+          "embekke"
+        ],
+        "kandy",
+        [
+          "tooth",
+          "lake"
+        ]
+      ]
+    ],
+    [
+      "budget-tuk-tuk-kandy-tour",
+      [
+        "peradeniya",
+        [
+          "bahirawa",
+          "asgirya"
+        ],
+        "hanthana",
+        "tooth"
+      ],
+      [
+        "kandy"
+      ]
+    ],
+    [
+      "ambuluwawa-ramboda-falls-day-tour-from-kandy",
+      [
+        "ramboda",
+        "puna",
+        "ambuluwawa"
+      ],
+      [
+        "kandy"
+      ],
+      [
+        "kandy"
+      ]
+    ],
+    [
+      "one-day-hiking-camping-kandy-knuckles-adventures",
+      [
+        "hanthana",
+        "pettigala",
+        "knuckles",
+        "rangala"
+      ],
+      [
+        "kandy"
+      ]
+    ],
+    [
+      "one-day-hiking-camping-kandy-knuckles-adventures-five-peaks",
+      [
+        "thangappuwa",
+        "knuckles",
+        "kandy"
+      ],
+      [
+        "kandy"
+      ]
+    ],
+    [
+      "one-day-hiking-camping-kandy-knuckles-adventures-hanthane-lizard-back",
+      [
+        "hanthana",
+        "hanthana",
+        "kandy"
+      ],
+      [
+        "kandy"
+      ]
+    ],
+    [
+      "one-day-hiking-camping-kandy-knuckles-adventures-pettigala",
+      [
+        "pettigala",
+        "pettigala",
+        "kandy"
+      ],
+      [
+        "kandy"
+      ]
+    ],
+    [
+      "one-day-hiking-camping-kandy-knuckles-adventures-kotaganga",
+      [
+        "rangala",
+        "rangala",
+        "kandy"
+      ],
+      [
+        "kandy"
+      ]
+    ],
+    [
+      "pekoe-trail-experience-stage-1-hanthana-to-galaha",
+      [
+        "hanthana",
+        "hanthana",
+        "galaha"
+      ],
+      [
+        "kandy"
+      ],
+      [
+        "kandy"
+      ]
+    ],
+    [
+      "pekoe-trail-stage-2-galaha-to-loolkandura-hike",
+      [
+        [
+          "galaha",
+          "delthota"
+        ],
+        "loolkandura",
+        "kandy"
+      ]
+    ],
+    [
+      "temple-of-the-tooth-pinnawala-elephant-day-tour",
+      [
+        "tooth",
+        "meeyan",
+        "kadugannawa"
+      ],
+      [],
+      [
+        "kandy"
+      ]
+    ],
+    [
+      "kandy-night-tour-experience",
+      [
+        "lake",
+        "bahirawa",
+        "tooth"
+      ],
+      [],
+      [
+        "kandy"
+      ]
+    ],
+    [
+      "sacred-7-ramayana-tour-sri-lanka",
+      [
+        "chilaw",
+        "sigiriya",
+        "tooth",
+        [
+          "ramboda",
+          "nuwara"
+        ],
+        "ella",
+        [
+          "kataragama",
+          "galle"
+        ],
+        "colombo",
+        "airport"
+      ],
+      [
+        "airport"
+      ]
+    ],
+    [
+      "classic-ramayana-odyssey-sri-lanka",
+      [
+        "colombo",
+        "chilaw",
+        [
+          "anuradhapura",
+          "ritigala"
+        ],
+        [
+          "sigiriya",
+          "trinco"
+        ],
+        "trinco",
+        [
+          "dunuwila",
+          "kandy"
+        ],
+        [
+          "tooth",
+          "peradeniya"
+        ],
+        [
+          "ramboda",
+          "nuwara"
+        ],
+        "ella",
+        "kataragama",
+        [
+          "galle",
+          "colombo",
+          "airport"
+        ]
+      ],
+      [
+        "airport"
+      ]
+    ],
+    [
+      "ultimate-ramayana-expedition-sri-lanka",
+      [
+        "colombo",
+        "chilaw",
+        "mannar",
+        "jaffna",
+        "anuradhapura",
+        [
+          "sigiriya",
+          "habarana"
+        ],
+        "trinco",
+        [
+          "dunuwila",
+          "knuckles",
+          "kandy"
+        ],
+        "tooth",
+        [
+          "ramboda",
+          "nuwara"
+        ],
+        "nuwara",
+        "ella",
+        [
+          "kataragama",
+          "galle"
+        ],
+        "colombo",
+        "airport"
+      ],
+      [
+        "airport"
+      ]
+    ],
+    [
+      "premium-package-final-randoli-perahera",
+      [
+        "tooth"
+      ]
+    ],
+    [
+      "medium-package-randoli-perahera",
+      [
+        "tooth"
+      ]
+    ],
+    [
+      "standard-package-final-randoli-perahera",
+      [
+        "tooth"
+      ]
+    ]
+  ]
+}
