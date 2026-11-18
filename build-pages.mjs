@@ -56,9 +56,10 @@ const navigation = [
 ];
 
 const head = home.slice(0, home.indexOf('</head>') + 7)
+  .replace('family=Playfair+Display:ital,wght@0,500;0,600;1,500','family=Instrument+Serif:ital@0;1')
   .replace('href="assets/', 'href="/assets/')
   .replace('href="style.css"', 'href="/style.css"')
-  .replace('</head>', '<link rel="stylesheet" href="/design.css">\n</head>')
+  .replace('</head>', '<link rel="stylesheet" href="/design.css">\n<link rel="stylesheet" href="/field.css">\n</head>')
   .replace('<script src="app.js" defer>', '<script src="/tours.js" defer></script>\n<script src="/app.js" defer>');
 const brand = '<a class="brand" href="/" aria-label="AMAK Travels home"><img src="/assets/logo.webp" alt=""><span>AMAK<small>TRAVELS</small></span></a>';
 const footer = `<footer class="footer"><div class="wrap footer-inner">${brand}
@@ -125,35 +126,41 @@ function contactDetails() {
 const homeGallery = home.match(/<section class="section wrap" id="gallery">[\s\S]+?<\/section>/)[0]
   .replace('https://amaktravels.com/gallery/', '/gallery/');
 const homeBody = `
-  <section class="hero cinematic torn-after">
-    <img class="hero-photo" src="/assets/hero.webp" alt="" fetchpriority="high">
-    <div class="wrap cinematic-inner"><div class="cinematic-caption">
-      <p class="eyebrow">PRIVATE &amp; TAILOR-MADE SRI LANKA TOURS</p>
-      <h1>Discover Sri Lanka<br><em>your own way.</em></h1>
-    </div><div class="cinematic-side"><p>From hill-country trails to the southern coast, build a holiday around the places and experiences you came for.</p>
-      <a class="button paper-button" href="/tour-packages/">Explore tours <span aria-hidden="true">↗</span></a></div>
-    <div class="hero-bottom"><p>Sigiriya, Sri Lanka</p></div></div>
+  <section class="field-hero" aria-labelledby="home-title">
+    <img src="/assets/mountain-sky.webp" class="field-hero-photo" alt="Mountain ridges and lakes in Sri Lanka’s highlands" fetchpriority="high">
+    <div class="wrap field-hero-copy"><p class="eyebrow">SRI LANKA, WITH AMAK TRAVELS</p>
+    <h1 id="home-title">A little further.<br>A little <em>wilder.</em></h1>
+    <p>Private journeys, highland trails and days that take you somewhere new.</p>
+    <a class="button" href="/tour-packages/">Find your journey <span aria-hidden="true">↗</span></a></div>
+    <div class="field-hero-bottom wrap"><span>Central Highlands · Sri Lanka</span><a href="#about">Explore the island ↓</a></div>
   </section>
-  <section class="welcome paper-intro" id="about">
-    <div class="wrap"><div class="intro-title"><h2>Find your<br><em>perfect trip.</em></h2>
-    <div><p>AMAK Travels is based in Sri Lanka’s Central Province. Explore Kandy with us for a day or ask our team to design an island-wide itinerary.</p>
-    <a class="text-link" href="/about-us/">About AMAK Travels ↗</a></div></div>
-    <figure><img src="/assets/postcard.webp" loading="lazy" alt="Sunlit hills in Sri Lanka’s Central Highlands"><figcaption>Central Highlands, Sri Lanka</figcaption></figure></div>
-    <div class="paper-trail"><div class="wrap"><a href="/discover/">Culture</a><a href="/day-tour/">Highland adventures</a><a href="/round-tours/">Round tours</a><a href="${trip}">Tailor-made trips</a></div></div>
-  </section>
-  <section class="paper-packages torn-before torn-after" id="tours"><div class="section wrap">
-    <div class="section-head"><div><p class="eyebrow">TOUR PACKAGES</p><h2>Adventure across<br>the island</h2></div><a class="button paper-button" href="/tour-packages/">View all tours ↗</a></div>
+  <section class="field-intro section" id="about"><div class="wrap">
+    <p class="eyebrow accent">CLOSE TO THE PLACE. CLOSE TO THE PEOPLE.</p>
+    <h2>For the stories<br>you’ll <em>bring home.</em></h2>
+    <p class="intro-description">A temple at first light. A trail through the tea hills. A long afternoon by the sea. Explore Sri Lanka with a local team who helps put it all together.</p>
+    <div class="memory-strip">${[18,13,5,19,15].map((n,i)=>`<a href="/gallery/" aria-label="Explore AMAK guest gallery"><img src="/assets/gallery/guest-${String(n).padStart(2,'0')}.webp" loading="lazy" alt="${['Guests in the Sri Lankan highlands','Guests at the Temple of the Tooth','A hill-country trip with AMAK','Guests visiting a waterfall','Travellers on Sri Lanka’s coast'][i]}"></a>`).join('')}</div>
+    <div class="intro-bottom"><p class="field-note">Notes from<br>our island.</p><div><h3>Your pace.<br>Your kind of Sri Lanka.</h3><p>Based in the Central Province, AMAK Travels plans day trips from Kandy and private tours across the island. Tell us what you love, and we’ll help shape the route.</p><a class="text-link" href="/about-us/">Meet AMAK Travels ↗</a></div></div>
+  </div></section>
+  <section class="field-journeys section" id="tours"><div class="wrap">
+    <div class="section-head"><div><p class="eyebrow accent">FIND YOUR WAY</p><h2>Where shall<br>we go <em>next?</em></h2></div><a class="text-link" href="/tour-packages/">Explore all tours ↗</a></div>
     <div class="filters" role="group" aria-label="Tour categories">${Object.entries(categories).map(([key,[,label]],i)=>`<button type="button" data-category="${key}" aria-pressed="${i===0}">${e(label)}</button>`).join('')}</div>
-    <div id="tour-grid" class="cards"></div><noscript><p><a href="/tour-packages/">Browse the tour catalogue</a></p></noscript>
+    <div id="tour-grid" class="cards"></div><noscript><a href="/tour-packages/">Browse tour packages</a></noscript>
   </div></section>
-  <section class="experience-section"><div class="wrap interior">
-    <div class="center-heading"><h2>Outdoors, on the coast,<br><em>or in the city.</em></h2></div>
-    <div class="experience-grid">${Object.values(categories).map(([slug,title,summary,photo]) => `<a href="${url(slug)}"><img src="${image(photo)}" alt="" loading="lazy"><span>${e(title)} <b aria-hidden="true">↗</b></span></a>`).join('')}</div>
+  <section class="field-journal section"><div class="wrap journal-layout">
+    <div><p class="eyebrow accent">TAKE THE SCENIC ROUTE</p><h2>Tea hills.<br>Fresh air.<br><em>Time to wander.</em></h2><p>Follow the Pekoe Trail through tea country or head into the Knuckles Range with a local guide.</p><a class="button" href="/day-tour/">Explore the highlands ↗</a></div>
+    <figure class="journal-photo"><img src="/assets/postcard.webp" alt="Sunlight over the Sri Lankan Central Highlands" loading="lazy"><figcaption>From the field · Central Highlands</figcaption><span class="field-stamp" aria-hidden="true">AMAK TRAVELS<br>✳<br>SRI LANKA</span></figure>
   </div></section>
-  <section class="destination-strip"><div class="wrap interior"><div class="section-head"><div><p class="eyebrow"><span></span> DISCOVER SRI LANKA</p><h2>Explore Kandy</h2></div><a class="text-link" href="/discover/">Discover more ↗</a></div>
-  <div class="experience-grid destinations">${content.discover.map(([title,photo,,,],i)=>`<a href="/discover/#place-${i+1}"><img src="${image(photo)}" alt="" loading="lazy"><span>${e(title)} <b aria-hidden="true">↗</b></span></a>`).join('')}</div></div></section>
-  ${homeGallery}
-  <section class="trip-banner"><div class="wrap"><div><p class="eyebrow">TAILOR-MADE TOURS</p><h2>Let’s plan your Sri Lanka</h2></div><a class="button gold" href="${trip}">Plan my trip ↗</a></div></section>`;
+  <section class="section field-reasons"><div class="wrap">
+    <div class="center-heading"><p class="eyebrow accent">LET’S MAKE IT YOURS</p><h2>The details,<br><em>taken care of.</em></h2></div>
+    <div class="reason-list">
+    <details open><summary><span>01</span><h3>A route around you</h3><b aria-hidden="true">+</b></summary><div><p>Combine culture, nature, hiking and coast time. Share your dates and interests, and ask AMAK to help build an itinerary that suits your group.</p><img src="/assets/trail.webp" alt="A walk through Sri Lanka’s tea country" loading="lazy"></div></details>
+    <details><summary><span>02</span><h3>Local connections</h3><b aria-hidden="true">+</b></summary><div><p>Our team is based in Sri Lanka’s Central Province. Get in touch directly to talk through the places you’d like to see and the experiences you’re looking for.</p><img src="/assets/gallery/guest-36.webp" alt="Travellers exploring Sri Lanka with their guide" loading="lazy"></div></details>
+    <details><summary><span>03</span><h3>A clear plan before you go</h3><b aria-hidden="true">+</b></summary><div><p>Review the route, pickup arrangements, inclusions and optional costs with the team before confirming your journey.</p><img src="/assets/trek.webp" alt="Sri Lanka’s mountain scenery" loading="lazy"></div></details>
+    </div>
+  </div></section>
+  <section class="field-gallery section"><div class="wrap"><div class="section-head"><div><p class="eyebrow">POSTCARDS FROM SRI LANKA</p><h2>The moments<br>in <em>between.</em></h2></div><a class="text-link" href="/gallery/">Open the guest gallery ↗</a></div>
+  <div class="gallery">${[1,2,3].map((n,i)=>galleryButton('/assets/guest-'+n+'.webp',['Guests in the highlands','Guests visiting a Sri Lankan temple','Travellers on an AMAK trip'][i])).join('')}</div></div></section>
+  <section class="trip-banner"><div class="wrap"><div><p class="eyebrow">YOUR NEXT CHAPTER</p><h2>Let’s go<br><em>somewhere good.</em></h2></div><div><p>Start with a few places you’d love to see.<br>We’ll help you connect the dots.</p><a class="button gold" href="${trip}">Build your itinerary ↗</a></div></div></section>`;
 write('', `${metadataFor('', 'Sri Lanka Tours | AMAK Travels', 'Private Sri Lanka tours, day trips from Kandy and tailor-made itineraries.') }<body><a class="skip" href="#main">Skip to content</a>${header(undefined, true)}
 <main id="main">${homeBody}</main>${footer}${galleryDialog}</body></html>\n`);
 
